@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-try-then",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "If a function does not throw, return the function return value; otherwise, return the return value of a second function.",
   "license": "Apache-2.0",
   "author": {
