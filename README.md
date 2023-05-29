@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@deno/mod.js';
+import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@v0.0.11-deno/mod.js';
 ```
 
 #### trythen( x, y )
@@ -117,7 +117,7 @@ var z = trythen( x, y );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import ceil from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceil@deno/mod.js';
 import repeatString from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-repeat@deno/mod.js';
-import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@deno/mod.js';
+import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@v0.0.11-deno/mod.js';
 
 var z;
 var i;
