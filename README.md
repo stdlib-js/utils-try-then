@@ -41,6 +41,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-try-then/tags). For example,
+
+```javascript
 import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@v0.0.10-esm/index.mjs';
 ```
 
@@ -122,7 +127,7 @@ var z = trythen( x, y );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import ceil from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceil@esm/index.mjs';
 import repeatString from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-repeat@esm/index.mjs';
-import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@v0.0.10-esm/index.mjs';
+import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@esm/index.mjs';
 
 var z;
 var i;
