@@ -34,30 +34,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/utils-try-then
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var trythen = require( '@stdlib/utils-try-then' );
+import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@esm/index.mjs';
 ```
 
 #### trythen( x, y )
@@ -89,7 +73,7 @@ The function `y` is provided a single argument:
 -   `error`: the error thrown by `x`
 
 ```javascript
-var randu = require( '@stdlib/random-base-randu' );
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 
 function x() {
     if ( randu() < 0.5 ) {
@@ -129,11 +113,16 @@ var z = trythen( x, y );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var ceil = require( '@stdlib/math-base-special-ceil' );
-var repeatString = require( '@stdlib/string-repeat' );
-var trythen = require( '@stdlib/utils-try-then' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
+import ceil from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceil@esm/index.mjs';
+import repeatString from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-repeat@esm/index.mjs';
+import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@esm/index.mjs';
 
 var z;
 var i;
@@ -153,6 +142,10 @@ for ( i = 0; i < 100; i++ ) {
     z = trythen( x, y );
     console.log( z );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -191,7 +184,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -253,9 +246,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/try-catch]: https://github.com/stdlib-js/utils-try-catch
+[@stdlib/utils/try-catch]: https://github.com/stdlib-js/utils-try-catch/tree/esm
 
-[@stdlib/utils/async/try-then]: https://github.com/stdlib-js/utils-async-try-then
+[@stdlib/utils/async/try-then]: https://github.com/stdlib-js/utils-async-try-then/tree/esm
 
 <!-- </related-links> -->
 
