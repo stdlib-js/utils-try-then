@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@esm/index.mjs';
+import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@v0.1.0-esm/index.mjs';
 ```
 
 #### trythen( x, y )
@@ -133,7 +133,7 @@ var z = trythen( x, y );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import ceil from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ceil@esm/index.mjs';
 import repeatString from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-repeat@esm/index.mjs';
-import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@esm/index.mjs';
+import trythen from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-try-then@v0.1.0-esm/index.mjs';
 
 var z;
 var i;
